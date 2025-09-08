@@ -3,7 +3,7 @@ import random
 word_bank = ['simple', 'night', 'project', 'python', 'programming']
 word = random.choice(word_bank)
 guessed_word = ['_'] * len(word)
-max_attempts = 15
+max_attempts = 6
 attempts = max_attempts
 
 hangman_stages = [
